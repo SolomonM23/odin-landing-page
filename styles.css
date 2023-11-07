@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
 :root {
     --hero-footer: #1f2937;
     --main-font: #f9faf8;
     --secondary-text: #e5e7eb;
     --button: #3882f6;
     --dark-font: #1f2937;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
 }
