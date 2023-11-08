@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --hero-footer: #1f2937;
     --main-font: #f9faf8;
@@ -15,17 +19,31 @@ body {
     flex-flow: column nowrap;
 }
 
+button {
+    background-color: var(--button);
+    color: var(--main-font);
+}
+
 /* Hero section */
 ul, a {
     text-decoration: none;
     list-style: none;
     color: var(--main-font);
     margin: 0;
+    padding: 0;
 }
 
 .header {
     background-color: var(--hero-footer);
-    height: 200px;
+    height: 300px;
     color: var(--main-font);
     display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 0 100px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
 }
