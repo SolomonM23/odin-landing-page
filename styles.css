@@ -10,4 +10,22 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Hero section */
+ul, a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--main-font);
+    margin: 0;
+}
+
+.header {
+    background-color: var(--hero-footer);
+    height: 200px;
+    color: var(--main-font);
+    display: flex;
 }
