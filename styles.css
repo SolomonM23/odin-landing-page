@@ -19,6 +19,10 @@ body {
     flex-flow: column nowrap;
 }
 
+.container {
+    padding: 0 200px;
+}
+
 button {
     background-color: var(--button);
     color: var(--main-font);
@@ -42,7 +46,6 @@ ul, a {
     color: var(--main-font);
     display: flex;
     flex-direction: column;
-    padding: 0 200px;
 }
 
 .nav {
@@ -69,10 +72,6 @@ h1 {
     font-size: 48px;
 }
 
-.content {
-    /* flex: 1; */
-}
-
 .content p {
     font-size: 18px;
     color: var(--secondary-text);
@@ -92,4 +91,11 @@ h1 {
     max-height: 350px;
     min-width: 250px;
     object-fit: cover;
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: var(--hero-footer);
 }
