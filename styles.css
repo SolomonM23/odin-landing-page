@@ -70,6 +70,7 @@ ul, a {
 h1 {
     margin: 0;
     font-size: 48px;
+    font-weight: 700;
 }
 
 .content p {
@@ -93,9 +94,25 @@ h1 {
     object-fit: cover;
 }
 
+/* Info Section */
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+
+/* Quote */
+.quote {
+    background-color: var(--secondary-text);
+}
 
 
 /* Footer */
 .footer {
     background-color: var(--hero-footer);
+    color: var(--main-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
