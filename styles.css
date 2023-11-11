@@ -139,14 +139,31 @@ h2 {
     font-weight: 300;
     font-size: 26px;
     font-style: italic;
-    /* margin: 100px 50px 0 50px; */
 }
 
 .quote p {
     align-self: end;
     font-weight: 700;
-    /* margin-bottom: 100px; */
 }
+
+/* Call to action */
+.signup-content {
+    background-color: var(--button);
+    color: var(--main-font);
+    border-radius: 10px;
+    display: flex;
+    margin: 100px 0;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.signup-left p, h3 {
+    margin: 0;
+}
+
+/* button .second {
+    border: 1px solid --main-font;
+} */
 
 /* Footer */
 .footer {
