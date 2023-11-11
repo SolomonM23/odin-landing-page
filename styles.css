@@ -109,6 +109,7 @@ h2 {
 .cards-container {
     display: flex;
     gap: 16px;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -118,6 +119,7 @@ h2 {
     align-items: center;
     text-align: center;
     font-weight: 300;
+    padding: 10px;
 }
 
 .card-image {
