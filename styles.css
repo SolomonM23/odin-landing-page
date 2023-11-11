@@ -165,7 +165,7 @@ h2 {
 }
 
 .button-secondary {
-    border: 1px solid --main-font;
+    border: 2px solid #e5e7eb;
     align-self: center;
 }
 
