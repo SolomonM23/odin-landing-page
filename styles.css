@@ -130,8 +130,23 @@ h2 {
 /* Quote */
 .quote {
     background-color: var(--secondary-text);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 250px; 
 }
 
+.quote q {
+    font-weight: 300;
+    font-size: 26px;
+    font-style: italic;
+    /* margin: 100px 50px 0 50px; */
+}
+
+.quote p {
+    align-self: end;
+    font-weight: 700;
+    /* margin-bottom: 100px; */
+}
 
 /* Footer */
 .footer {
